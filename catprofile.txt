@@ -1,0 +1,43 @@
+package catprofile
+
+	class Cat
+	{
+		
+		String name;
+		int age;
+		double height;
+		double weight;
+		String food;
+		
+		void show(){
+		
+			System.out.println("名前は"+name+"です。");
+			System.out.println("年齢は"+age+"歳です。");
+		}
+		
+		void profile(){
+		
+			System.out.println("身長は"+height+"cmです。");
+			System.out.println("体重は"+weight+"kgです。");
+			System.out.println("好物は"+food+"です。");		
+		}
+	}
+		
+	
+public class Question14_2
+{
+	public static void main(String[]args)
+	{
+			Cat cat=new Cat();
+			
+			cat.name="コタロウ";
+			cat.age=7;
+			cat.height=52.3;
+			cat.weight=4.8;
+			cat.food="ささみ";
+
+			
+		cat.show();
+		cat.profile();		
+	}
+}
