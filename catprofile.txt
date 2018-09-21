@@ -11,33 +11,14 @@ package catprofile
 		
 		void show(){
 		
-			System.out.println("–¼‘O‚Í"+name+"‚Å‚·B");
-			System.out.println("”N—î‚Í"+age+"Î‚Å‚·B");
+			System.out.println("åå‰ã¯"+name+"ã§ã™ã€‚");
+			System.out.println("å¹´é½¢ã¯"+age+"æ­³ã§ã™ã€‚");
 		}
 		
 		void profile(){
 		
-			System.out.println("g’·‚Í"+height+"cm‚Å‚·B");
-			System.out.println("‘Ìd‚Í"+weight+"kg‚Å‚·B");
-			System.out.println("D•¨‚Í"+food+"‚Å‚·B");		
+			System.out.println("èº«é•·ã¯"+height+"cmã§ã™ã€‚");
+			System.out.println("ä½“é‡ã¯"+weight+"kgã§ã™ã€‚");
+			System.out.println("å¥½ç‰©ã¯"+food+"ã§ã™ã€‚");		
 		}
 	}
-		
-	
-public class Question14_2
-{
-	public static void main(String[]args)
-	{
-			Cat cat=new Cat();
-			
-			cat.name="ƒRƒ^ƒƒE";
-			cat.age=7;
-			cat.height=52.3;
-			cat.weight=4.8;
-			cat.food="‚³‚³‚Ý";
-
-			
-		cat.show();
-		cat.profile();		
-	}
-}
