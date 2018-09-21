@@ -1,0 +1,19 @@
+package cat
+
+public class catshow {
+
+	public static void main(String[] args) 
+  {
+  			Cat cat=new Cat();
+			
+			cat.name="コタロウ";
+			cat.age=7;
+			cat.height=52.3;
+			cat.weight=4.8;
+			cat.food="ささみ";
+
+			
+		cat.show();
+		cat.profile();		
+	}
+}
