@@ -1,0 +1,20 @@
+package sampleP8;
+
+public class Sample4 {
+
+	public static void main(String[] args) 
+	{
+		Car4 car1=new Car4();
+		
+		int num1=1234;
+		int num2=5678;
+		
+		car1.setNum(num1);
+		car1.setNum(num2);
+		car1.setGas(20.5);
+		car1.setName("TOYOTA");
+		car1.show();
+
+	}
+
+}
