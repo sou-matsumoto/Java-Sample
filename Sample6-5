@@ -1,0 +1,18 @@
+package sampleP6;
+
+public class Sample5 {
+
+	public static void main(String[] args) 
+	{
+		int i=0;
+		
+		while(i<7){
+			System.out.println(i+"番目の繰り返しです。");
+			i++;
+		}
+		
+		System.out.println("繰り返しを終了します。");
+
+	}
+
+}
