@@ -1,0 +1,9 @@
+package sampleP8;
+	
+	public class Car1 
+	{
+	double gas;
+	int num;
+	String name;
+
+	}
