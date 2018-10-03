@@ -1,0 +1,30 @@
+package sampleP9;
+
+
+	class Car5 
+	{
+		private int num;
+		private double gas;
+		
+		public Car5()
+		{
+			num=0;
+			gas=0.0;
+			
+			System.out.println("車を作成しました。");
+		}
+		public Car5(int n,double g)
+		{
+			num=n;
+			gas=g;
+			
+			System.out.println("車のナンバーを"+num+"にガソリン量を"+gas+"に変更しました。");
+			
+		}
+		public void show()
+		{
+		System.out.println("車のナンバーは"+num+"です。");
+		System.out.println("ガソリン量は"+gas+"です。");
+		}
+
+}
