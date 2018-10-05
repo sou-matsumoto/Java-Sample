@@ -1,0 +1,25 @@
+package sample9;
+
+public class Sample8 {
+
+	public static void main(String[] args)
+	{
+		Car8.showSum();
+
+		Car8 car1=new Car8();
+
+		Car8.showSum();
+
+		car1.setCar(1234, 20.5);
+		car1.show();
+
+		Car8 car2=new Car8();
+
+		Car8.showSum();
+
+		car2.setCar(4567, 30.5);
+		car2.show();
+
+	}
+
+}
