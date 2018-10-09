@@ -13,15 +13,13 @@ public class Sample6 {
 		Car6 car2;
 		System.out.println("car2を宣言しました。");
 
-		car1.setCar(1234, 20.5);
-
 		car2=car1;
 		System.out.println("car2にcar1を代入しました。");
 
-		System.out.println("car1がさす");
+		System.out.print("car1がさす");
 		car1.show();
 
-		System.out.println("car2がさす");
+		System.out.print("car2がさす");
 		car2.show();
 
 	}
