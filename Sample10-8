@@ -18,9 +18,9 @@ public class Sample8 {
 		Point p=new Point(100,200);
 
 
-		System.out.println("p+の参照先インスタンスの内容は"+p);
+		System.out.println("pの参照先インスタンスの内容は"+p);
 		Sample8.chageCar2(p);
-		System.out.println("p+の参照先インスタンスの内容は"+p);
+		System.out.println("pの参照先インスタンスの内容は"+p);
 	}
 	public static void chageCar1(int b)
 	{
