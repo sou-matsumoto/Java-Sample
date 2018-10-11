@@ -1,0 +1,44 @@
+package sample10;
+import java.awt.Point;
+
+public class Sample8 {
+
+	public static void main(String[] args)
+	{
+		int a=10;
+
+		System.out.println("**********aの値は**********");
+		System.out.println("a="+a);
+
+		Sample8.chageCar1(a);
+		System.out.println("**********aの値は**********");
+		System.out.println("a="+a);
+		System.out.println("******************************");
+
+		Point p=new Point(100,200);
+
+
+		System.out.println("p+の参照先インスタンスの内容は"+p);
+		Sample8.chageCar2(p);
+		System.out.println("p+の参照先インスタンスの内容は"+p);
+	}
+	public static void chageCar1(int b)
+	{
+		System.out.println("**********bの値は**********");
+		System.out.println("b="+b);
+
+		b=30;
+		System.out.println("**********bの値は(変更後)**********");
+		System.out.println("b="+b);
+
+	}
+	public static void chageCar2(Point car2)
+	{
+		System.out.println("qの参照先インスタンスの内容は"+car2);
+		System.out.println("**********qの値を変更**********");
+		System.out.println("x=300\ny=400");
+			car2.x=300;
+			car2.y=400;
+			System.out.println("qの参照先インスタンスの内容は"+car2);
+	}
+}
