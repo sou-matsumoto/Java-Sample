@@ -1,0 +1,10 @@
+package sample11;
+
+public class Sample2 {
+
+	public static void main(String[] args)
+	{
+		RacingCar2 rccar1=new RacingCar2(1234,20.5,5);
+	}
+
+}
