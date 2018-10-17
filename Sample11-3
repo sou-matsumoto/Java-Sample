@@ -1,0 +1,17 @@
+package sample11;
+
+public class Sample3 {
+
+	public static void main(String[] args)
+	{
+		RacingCar3 rccar=new RacingCar3();
+
+		rccar.newshow();
+
+		rccar.setCourse(5);
+		rccar.setCar(1234, 20.5);
+
+		rccar.newshow();
+	}
+
+}
